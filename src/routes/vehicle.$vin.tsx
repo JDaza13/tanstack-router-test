@@ -31,5 +31,4 @@ export const Route = createFileRoute("/vehicle/$vin")({
       chartSignal: (search.chartSignal as ChartSignal) || "voltage",
     };
   },
-
 });

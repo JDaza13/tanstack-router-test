@@ -2,7 +2,7 @@ import { useNavigate } from "@tanstack/react-router";
 import { ChartSignal, Route } from "../routes/vehicle.$vin";
 
 const VehicleChart = () => {
-    const chartSignal = Route.useSearch({ select: (search) => search.chartSignal });
+  const chartSignal = Route.useSearch({ select: (search) => search.chartSignal });
   const navigate = useNavigate({ from: Route.fullPath });
   const lastRendered = new Date().toLocaleString();
 

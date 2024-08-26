@@ -14,7 +14,7 @@ const VehicleHeader = () => {
     navigate({
       to: "/vehicle/$vin",
       params: { vin: newVin },
-      search: (prev) => ({...prev}),
+      search: (prev) => ({ ...prev }),
     });
   };
 
